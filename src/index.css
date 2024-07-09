@@ -1,0 +1,38 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+    background-color: black;
+    font-family: "Merriweather Sans", sans-serif;
+}
+.image{
+    filter: drop-shadow(
+    -20px 0 40px rgb(162, 221, 243, 1)
+    )
+}
+.image1{
+    filter: drop-shadow(
+    20px 0 50px rgb(255, 180, 68, 0.7)
+    )
+}
+.sha{
+    box-shadow: 0px 0px 4px 1px #00eeff;
+}
+.sho{
+    box-shadow: 0px 0px 4px 1px #ffac50;
+}
+.cont:hover .texx{
+    color: #ff562a;
+    font-size: 16px;
+    transition-duration: 300ms;
+
+}
+.cont:hover .ima{
+    scale: 1.20;
+    transition-duration: 500ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+.cont{
+    cursor: pointer;
+}
