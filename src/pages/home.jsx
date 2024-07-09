@@ -61,21 +61,21 @@ export const Home = () => {
                 <p className="text-white opacity-80 text-center mt-2 text-xl font-medium">Choose Your Attack</p>
             </div>
             <div className="mx-2 mt-4 flex justify-around">
-                <div className="bg-[#222222] cont hover:bg-[#ffe4dd] hover:border-2 hover:font-semibold hover:border-[#ff562a] hover:text-[#ff562a] w-[23vh] h-[18vh] flex flex-col items-center rounded-lg py-1 px-3 ">
-                    <img className="mt-[-10px] ima" src={img6} alt="" width={95} />
+                <div className="bg-[#222222] cont hover:bg-[#ffe4dd] hover:border-2 hover:font-semibold hover:border-[#ff562a] hover:text-[#ff562a] w-[23vh] h-[18vh] flex flex-col items-center justify-around rounded-lg py-1 px-3 ">
+                    <img className="mt-[-10px] ima " src={img6} alt="" width={95} />
                     <p className="text-white text-sm font-mono opacity-70 texx">Giga Impact</p>
                 </div>
-                <div className="bg-[#222222] cont hover:bg-[#ffe4dd] hover:border-2 hover:font-semibold hover:border-[#ff562a] hover:text-[#ff562a] w-[23vh] h-[18vh] flex flex-col items-center rounded-lg py-1 px-3 ">
+                <div className="bg-[#222222] cont hover:bg-[#ffe4dd] hover:border-2 hover:font-semibold hover:border-[#ff562a] hover:text-[#ff562a] w-[23vh] h-[18vh] flex flex-col items-center justify-around rounded-lg py-1 px-3 ">
                     <img className="mt-[-30px] ima" src={img7} alt="" width={105} />
                     <p className="text-white text-sm font-mono opacity-70 texx">Aerial Ace</p>
                 </div>
             </div>
             <div className="mx-2 mt-4 flex justify-around">
-                <div className="bg-[#222222] cont hover:bg-[#ffe4dd] hover:border-2 hover:font-semibold hover:border-[#ff562a] hover:text-[#ff562a] w-[23vh] h-[18vh] flex flex-col items-center rounded-lg py-1 px-3 ">
-                    <img className="mt-[-25px] ima" src={img8} alt="" width={95} />
+                <div className="bg-[#222222] cont hover:bg-[#ffe4dd] hover:border-2 hover:font-semibold hover:border-[#ff562a] hover:text-[#ff562a] w-[23vh] h-[18vh] flex flex-col items-center justify-around rounded-lg py-1 px-3 ">
+                    <img className="mt-[-25px] ima mb-2" src={img8} alt="" width={95} />
                     <p className="text-white text-sm font-mono opacity-70 texx">Flamethrower</p>
                 </div>
-                <div className="bg-[#222222] cont hover:bg-[#ffe4dd] hover:border-2 hover:font-semibold hover:border-[#ff562a] hover:text-[#ff562a] w-[23vh] h-[18vh] flex flex-col items-center rounded-lg py-1 px-3 ">
+                <div className="bg-[#222222] cont hover:bg-[#ffe4dd] hover:border-2 hover:font-semibold hover:border-[#ff562a] hover:text-[#ff562a] w-[23vh] h-[18vh] flex flex-col items-center justify-around rounded-lg py-1 px-3 ">
                     <img className="mt-[-15px] ima " src={img9} alt="" width={99} />
                     <p className="text-white text-sm font-mono opacity-70 texx">Dragon Tail</p>
                 </div>
